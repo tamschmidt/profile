@@ -8,92 +8,113 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="card text-center">
-        <img src="images/tamara-perfil.jpg" alt="Tamara" id ="img-profile" class="img-circle">
-        <h1>Tamara Schmidt</h1>
-        <h2>Bootcamper @Le Wagon</h2>
-        <p>Physicist working in a fintech project that units financial market and agribusiness</p>
-      </div>
-      <div class="card text-center">
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.linkedin.com/in/tamara-schmidt" target="_blank">
-              <i class="fab fa-linkedin"></i>
-              <br>
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/tamschmidt  " target="_blank">
-              <i class="fab fa-github-square"></i>
-              <br>
-              GitHub
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="card text-center">
-      <h2>My favorite places</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <img src="images/torres-del-paine.jpeg" alt="Torres del Paine" class="img-small">
-              </td>
-              <td>
-                <h3>Torres del Paine</h3>
-                <p class="paragraph-small">
-                  Torres del Paine National Park is a national park encompassing mountains, glaciers, lakes, and rivers in southern Chilean Patagonia.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/uyuni-desert.jpeg" alt="Uyuni Desert" class="img-small" class="img-small">
-              </td>
-              <td>
-                <h3>Uyuni Desert</h3>
-                <p class="paragraph-small">
-                  Uyuni Desert is the world's largest salt flat, at 10,582 square kilometers. It is in the Daniel Campos Province in Potosí in southwest Bolivia, near the crest of the Andes and is at an elevation of 3,656 meters (11,995 ft) above sea level.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/easter-island.jpeg" alt="Easter Island" class="img-small">
-              </td>
-              <td>
-                <h3>Easter Island</h3>
-                <p class="paragraph-small">
-                  Easter Island is a Chilean island in the southeastern Pacific Ocean, at the southeasternmost point of the Polynesian Triangle in Oceania. Easter Island is most famous for its nearly 1,000 extant monumental statues, called moai, created by the early Rapa Nui people.
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="card text-center">
-        <h2>About this page</h2>
-          This page has been coded during the
-        <a href="https://lewagon.com" target="_blank">FullStack program @LeWagon</a>
-        <ul class="list-inline">
-          <li>
-            <a href="">
-              <i class="fa fa-heart"></i>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <i class="fa fa-share"></i>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <i class="fa fa-star"></i>
-            </a>
-          </li>
-        </ul>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#address">
+            <i class="fas fa-address-card"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-places">
+            <i class="fas fa-plane"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">
+      <div class="container">
+        <div class="card text-center" id="summary">
+          <img src="images/tamara-perfil.jpg" alt="Tamara" id ="img-profile" class="img-circle">
+          <h1>Tamara Schmidt</h1>
+          <h2>Bootcamper @Le Wagon</h2>
+          <p>Physicist working in a fintech project that units financial market and agribusiness</p>
+        </div>
+        <div class="card text-center" id="address">
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.linkedin.com/in/tamara-schmidt" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <br>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/tamschmidt  " target="_blank">
+                <i class="fab fa-github-square"></i>
+                <br>
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="card text-center" id="favorite-places">
+        <h2>My favorite places</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="images/torres-del-paine.jpeg" alt="Torres del Paine" class="img-small">
+                </td>
+                <td>
+                  <h3>Torres del Paine</h3>
+                  <p class="paragraph-small">
+                    Torres del Paine National Park is a national park encompassing mountains, glaciers, lakes, and rivers in southern Chilean Patagonia.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/uyuni-desert.jpeg" alt="Uyuni Desert" class="img-small" class="img-small">
+                </td>
+                <td>
+                  <h3>Uyuni Desert</h3>
+                  <p class="paragraph-small">
+                    Uyuni Desert is the world's largest salt flat, at 10,582 square kilometers. It is in the Daniel Campos Province in Potosí in southwest Bolivia, near the crest of the Andes and is at an elevation of 3,656 meters (11,995 ft) above sea level.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/easter-island.jpeg" alt="Easter Island" class="img-small">
+                </td>
+                <td>
+                  <h3>Easter Island</h3>
+                  <p class="paragraph-small">
+                    Easter Island is a Chilean island in the southeastern Pacific Ocean, at the southeasternmost point of the Polynesian Triangle in Oceania. Easter Island is most famous for its nearly 1,000 extant monumental statues, called moai, created by the early Rapa Nui people.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card text-center">
+          <h2>About this page</h2>
+            This page has been coded during the
+          <a href="https://lewagon.com" target="_blank">FullStack program @LeWagon</a>
+          <ul class="list-inline">
+            <li>
+              <a href="">
+                <i class="fa fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-share"></i>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-star"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>

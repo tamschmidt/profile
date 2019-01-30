@@ -57,12 +57,12 @@ a:hover {
 }
 
 .list-inline {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .list-inline li {
-    display: inline-block;
-    padding: 20px;
+  display: inline-block;
+  padding: 20px;
 }
 
 li {
@@ -76,6 +76,30 @@ td {
 .paragraph-small {
   font-size: 15px;
   text-align: justify;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+#sidebar i {
+  color: #98ccd3;
+}
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #132238;
+}
+
+#page-content {
+  margin-left: 300px;
 }
 
 @media (max-width: 960px) {
