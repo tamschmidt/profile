@@ -102,6 +102,10 @@ td {
   margin-left: 300px;
 }
 
+#form {
+  display: inline-block;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
